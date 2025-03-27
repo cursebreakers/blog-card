@@ -15,9 +15,9 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 
 ### Screenshots
 
-![](./images/desktop.png)
+![](./assets/images/desktop.png)
 
-![](./images/mobile.png)
+![](./assets/images/mobile.png)
 
 ### Links
 
