@@ -1,0 +1,139 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  display: border-box;
+}
+
+:root {
+  --yellow: hsl(47, 88%, 63%);
+  --white: hsl(0, 0%, 100%);
+  --gray500: hsl(0, 0%, 42%);
+  --gray950: hsl(0, 0%, 7%);
+
+  --sunny-gradient: linear-gradient(135deg, var(--white),  var(--yellow), var(--yellow), var(--yellow), var(--yellow), var(--yellow));
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Figtree', sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  align-items: center;
+  justify-content: space-around;
+  background-color: var(--yellow);
+}
+
+main {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  align-items: center;
+  justify-content: center;
+  padding: 1em;
+}
+
+#blogCard {
+  background-color: var(--white);
+  max-width: 360px;
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  border: 1px solid var(--gray950);
+  border-radius: 18px;
+  box-shadow: 10px 10px 12px var(--gray950);
+}
+
+.thumbNail {
+  border-radius: 14px;
+}
+
+h1 {
+  font-size: 28px;
+  font-weight: 800;
+  margin-bottom: 18px;
+}
+
+h1:hover {
+  color: var(--yellow);
+  cursor: pointer;
+
+}
+
+p {
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--gray500);
+}
+
+.textDiv {
+  padding: 2px;
+}
+
+#learnLabel {
+  margin-top: 18px;
+  padding: 12px 18px;
+  background-color: var(--yellow);
+  color: var(--gray950);
+  font-weight: 800;
+  width: fit-content;
+  border-radius: 8px;
+  margin-bottom: 18px;
+}
+
+#pubDate {
+  color: var(--gray950);
+  margin-bottom: 18px;
+}
+
+.tagLine {
+  margin-bottom: 18px;
+  font-size: 16px;
+}
+
+.authorTag {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.avatar {
+  max-width: 40px;
+  padding: 8px;
+}
+
+.authorName {
+  font-size: 16px;
+  font-weight: 800;
+  color: var(--gray950);
+}
+
+footer {
+  padding: 18px;
+}
+
+.attribution { 
+  font-size: 11px; 
+  text-align: center; 
+}
+
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
+}
+
+@media (max-width: 600px) {
+
+  #blogCard {
+	width: 72vw;
+  }
+
+
+}
+
+
+
